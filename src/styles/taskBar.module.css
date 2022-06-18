@@ -1,0 +1,53 @@
+.taskBar  {
+  display: grid;
+  grid-template-columns: 1fr 5.625rem;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+
+.taskInput {
+  height: 3.375rem;
+  resize: none;
+  line-height: var(--common-line-height);
+
+  color: var(--gray-100);
+  padding: 1rem;
+
+  border: 2px solid var(--gray-700);
+  background: var(--gray-500);
+  border-radius: var(--common-radius);
+}
+
+.taskInput:focus {
+  border-color: var(--purple-dark);
+  box-shadow: none;
+}
+
+.taskButton {
+  height: 3.375rem;
+  background: var(--blue-dark);
+
+  color: var(--gray-100);
+  line-height: var(--common-line-height);
+  cursor: pointer;
+
+  border: none;
+  border-radius: var(--common-radius);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  transition: background-color 0.2s;
+}
+
+
+.taskButton:hover {
+  background: var(--blue);
+}
+
+.taskButton span {
+  font-size: var(--size-sm);
+  font-weight: bold;
+}

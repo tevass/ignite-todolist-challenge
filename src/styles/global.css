@@ -18,6 +18,15 @@
   --size-md: 1rem;
   --size-sm: 0.875rem;
   --size-xsm: 0.75rem;
+
+  --common-max-width: 740px;
+  --common-radius: 8px;
+  --common-line-heigh: 1.4;
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 1px var(--purple-dark);
 }
 
 * {

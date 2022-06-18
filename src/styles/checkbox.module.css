@@ -1,0 +1,44 @@
+.container {
+  padding: 2px;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  color: var(--gray-100);
+
+  border-radius: 99px;
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+
+.checkbox, .checkbox span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox span {
+  width: 22px;
+  height: 22px;
+}
+
+.checkbox.default {
+  border: 2px solid var(--blue);
+}
+
+.checkbox.checked {
+  border: 2px solid var(--purple-dark);
+  background: var(--purple-dark);
+  transition: filter 0.2s;
+}
+
+.checkbox.checked:hover {
+  filter: brightness(1.1);
+}
+
+.checkbox.default:hover {
+  background: rgba(78, 168, 222, 0.2);
+}

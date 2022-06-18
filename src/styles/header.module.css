@@ -1,0 +1,12 @@
+.header {
+  background: var(--gray-700);
+}
+
+.header .content {
+  padding: 4.5rem 2rem;
+  max-width: var(--common-max-width);
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,13 @@
+.wrapper {
+  max-width: var(--common-max-width);
+  margin: 0 auto;
+  padding: 0 2rem 3rem;
+}
+
+.taskBar {
+  margin-top: -1.6875rem;
+}
+
+.tasksContainer {
+  margin-top: 4rem;
+}
