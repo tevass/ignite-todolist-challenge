@@ -24,6 +24,7 @@
   font-size: var(--size-sm);
   line-height: var(--common-line-height);
   flex: 1;
+  word-break: break-all;
 }
 
 .task.task.completed p {
